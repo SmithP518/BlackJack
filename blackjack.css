@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #064e06;
+    background-image: url('green-felt.jpg');
+    background-size: cover;
     color: white;
 }
 
@@ -9,22 +10,42 @@ body {
     height: 175px;
     width: 125px;
     margin: 1px;
+    border-radius: 6px;
 }
 
 #your-cards img {
     height: 175px;
     width: 125px;
     margin: 1px;
+    border-radius: 6px;
 }
 
 #hit {
     width: 100px;
     height: 50px;
     font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(1, 255, 77);
 }
 
 #stay {
     width: 100px;
     height: 50px;
     font-size: 20px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+#reset {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(1, 255, 77);
+}
+
+#results {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
 }
